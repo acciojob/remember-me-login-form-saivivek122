@@ -1,4 +1,3 @@
-//your JS code here. If required.
 let username = document.getElementById("username");
 let password = document.getElementById("password");
 let checkbox = document.getElementById("checkbox");
@@ -38,7 +37,7 @@ function userLogin() {
 }
 
 function existingUser(){
-    alert(`Logged in as saved ${userObj[0].userName}`)
+    alert(`Logged in as saved ${userObj[userObj.length-1].userName}`)
 }
 submitButton.addEventListener("click", userLogin)
 existingUserButton.addEventListener("click",existingUser)
