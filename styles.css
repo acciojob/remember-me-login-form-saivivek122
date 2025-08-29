@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+#form>input{
+    margin: 5px;
+    padding: 5px;
+}
+#submit{
+    width: 60px;
+    margin: auto;
+}
+
+
+#remember{
+    display: flex;
+    margin: 10px;
+}
+#existing{
+    display: none;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
